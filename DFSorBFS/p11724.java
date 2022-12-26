@@ -1,4 +1,4 @@
-package DFS;
+package DFSorBFS;
 
 import java.beans.Visibility;
 import java.io.BufferedReader;

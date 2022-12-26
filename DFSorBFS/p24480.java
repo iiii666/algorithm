@@ -1,9 +1,9 @@
-package DFS;
+package DFSorBFS;
 
 import java.io.*;
 import java.util.*;
 
-public class p24479 {
+public class p24480 {
 	static List<Integer>[] li;
 	static boolean[] visited;
 	static int[] route;
@@ -43,7 +43,7 @@ public class p24479 {
 			return;
 		}
 		visited[u] = true;
-		Collections.sort(li[u]);
+		Collections.sort(li[u], Collections.reverseOrder());
 		for (int i : li[u]) {
 			if (visited[i] == false) {
 				temp++;
