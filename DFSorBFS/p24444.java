@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class p24445 {
+public class p24444 {
 	static List<Integer>[] li;
 	static boolean[] visited;
 	static Queue<Integer> q = new LinkedList<>();
@@ -38,24 +38,12 @@ public class p24445 {
 			li[e].add(v);
 		}
 		for (int i = 1; i < N + 1; i++) {
-			Collections.sort(li[i], Collections.reverseOrder());
+			Collections.sort(li[i]);
 		}
 		q.add(R);
 		v[R] = visitCnt;
 		bfs(R);
 
-//		for (int i = 1; i < N + 1; i++) {
-//			if (result.contains(i)) {
-//				sb.append(result.indexOf(i)+1).append('\n');
-//				
-//				//System.out.println(result.indexOf(i) + 1);
-//			} else {
-//				sb.append(0).append('\n');;
-//				
-//				//System.out.println(0);
-//			}
-//		}
-//		System.out.println(sb);
 		for (int i = 1; i <= N; i++) {
             sb.append(v[i]).append('\n');
         }
