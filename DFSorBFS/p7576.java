@@ -56,7 +56,7 @@ public class p7576 {
             List<int[]> tmtPosition = new ArrayList<>();
             for (int i = 0; i < size; i++) {// 출발지가 여러개
                 int[] temp = q.poll();// 한군데씩
-                for (int search = 0; search < 4; search++) {
+                for (int search = 0; search < 4; search++) {//4방향 탐색
                     int x = temp[0] + dx[search];
                     int y = temp[1] + dy[search];
 
