@@ -79,7 +79,6 @@ public class p7576 {
 					}
 				}
 			}
-//			Position = tomato(arr);
 			for (int j = 0; j < tmtPosition.size(); j++) {
 				q.add(tmtPosition.get(j));
 			}
