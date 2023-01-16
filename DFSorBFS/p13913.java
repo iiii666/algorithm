@@ -79,7 +79,7 @@ public class p13913 {
 
 				if (next == K) {
 					distance[next] = distance[now] + 1;
-					parent[next] = now;
+					parent[next] = now; //다음 위치에 전위치가 어딘지 찍어주기
 					return;
 				}
 
@@ -87,7 +87,7 @@ public class p13913 {
 					visited[next] = true;
 					distance[next] = distance[now] + 1;
 
-					parent[next] = now;
+					parent[next] = now;//다음 위치에 전위치가 어딘지 찍어주기
 
 					q.add(next);
 
