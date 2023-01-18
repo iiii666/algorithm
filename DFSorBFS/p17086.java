@@ -63,7 +63,7 @@ public class p17086 {
 			for (int i = 0; i < size; i++) {// 출발지 여러개
 				int[] now = q.poll();
 				for (int temp = 0; temp < 8; temp++) {
-
+					
 					int x = now[0] + dx[temp];
 					int y = now[1] + dy[temp];
 					if (x < 0 || x >= N || y < 0 || y >= M || visited[x][y] || arr[x][y] == 1) {
