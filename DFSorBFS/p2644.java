@@ -10,6 +10,9 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class p2644 {
+	/* 촌수계산 s2
+	 * 유형 배열리스트를 사용한 bfs
+	 * */
 	static ArrayList<Integer>[] li;
 	static boolean[] visited;
 	static Queue<Integer> q = new LinkedList<>();
