@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
 public class p11725 {
 	/*트리의 부모 찾기 s2
 	 * 
-	 * 유형 : bfs 로 부모찾기
+	 * 유형 : bfs 로 부모찾기 ,한 단계 식 위로 가면 부모
 	 * 
 	 * */
 	static List<Integer>[] li;
